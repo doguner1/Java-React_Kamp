@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Product product1 = new Product(1,"Lenovo V15",2000.0,"32GB Ram" ,15.2 , 222.4  ); //Referans Alma
+		Product product1 = new Product(1,"Lenovo V15",2000.0,"32GB Ram" ,15.2); //Referans Alma
 		
 		
 		Product product2 = new Product();
