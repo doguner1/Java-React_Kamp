@@ -23,7 +23,7 @@ public class Main {
 		
 		
 		
-		//Çoğul olan isimler dizi ifade eder genellikle. Ürünlerine verilen gelen isimg ibi
+		//Çoğul olan isimler dizi ifade eder genellikle. Ürünlerine verilen gelen isim gibi
 		//Baştaki product ise Veritürü demek, String ali gibi buda Product x.
 		Product[] products = {product1,product2,product3};
 		for (Product product : products) {

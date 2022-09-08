@@ -24,7 +24,7 @@ public class Category {
 	}
 	
 	public String getName() {
-		return name + " !"; //Tekbirhareketletümçağırdığımızsayfalardeğişiyor. Set get önemli
+		return name + " !"; //Tek bir hareketle tüm  çağırdığımız sayfalar değişiyor. Set get önemli
 	}
 	
 	public void setName(String name) {

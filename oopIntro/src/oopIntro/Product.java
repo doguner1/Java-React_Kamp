@@ -11,7 +11,7 @@ public class Product {
 	private Double unitPrice;
 	private String detail;
     private Double discount;
-    private Double unitPriceAfterDicount;
+    
 
 	
 	//Constructor ==Yapıcı demek yani o classı oluştururken olmasını istediğimizi buraya yazıyoruz
@@ -20,15 +20,14 @@ public class Product {
 	}
 
 
-	public Product(int id, String name, Double unitPrice, String detail, Double discount,
-			Double unitPriceAfterDicount) {
+	public Product(int id, String name, Double unitPrice, String detail, Double discount) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.unitPrice = unitPrice;
 		this.detail = detail;
 		this.discount = discount;
-		this.unitPriceAfterDicount = unitPriceAfterDicount;
+		
 	}
 	//Get ve Setter okuma ve yazma anlamındadır.
 	 
