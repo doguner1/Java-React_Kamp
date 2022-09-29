@@ -7,7 +7,7 @@ public class JLoggerManagerAdapter implements LoggerService { //Başkaların yaz
 	@Override
 	public void logToSystem(String message) {
 		jLoggerManager manager = new jLoggerManager();
-		manager.los(message);
+		manager.log(message);
 		
 	}
 	
