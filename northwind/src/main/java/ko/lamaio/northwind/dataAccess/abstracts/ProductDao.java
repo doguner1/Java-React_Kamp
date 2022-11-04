@@ -1,4 +1,4 @@
-package ko.lamaio.northwind.dataAccess.abstracts;
+ package ko.lamaio.northwind.dataAccess.abstracts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
